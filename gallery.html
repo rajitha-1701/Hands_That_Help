@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="icon" href="public/images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <title>Gallery</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .gallery{
+        border: 1px solid #ccc;
+      }
+      .gallery img{
+        height: auto;
+        width: 100%;
+      }
+      .responsive{
+        padding: 0 6px;
+        float: left;
+        width: 25%;
+      }
+      body{
+        background: #E0C29A !important;
+      }
+      /* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#343A3A !important;">
+      <a class="navbar-brand" id="nab" href="welcome.html" data-interval="2000"><img id="nabi" src="public/images/logo_2.png"<h2>Hands That<br><div class="he"> Help</div></h2></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="welcome.html">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ABOUT
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html">About Us</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="whatwedo.html">What we do</a>
+        </div>
+      </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="help.html">JOIN US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="user2.html" style="background:#C70039!important; color:#fff!important;">DONATE NOW</a>
+        </li>
+
+      </ul>
+      </div>
+    </nav>
+<br><br><br>
+<h2 style="color: #3F429B; margin-top: 100px;margin-bottom:50px;" class="text-center">🧐 Please take a moment to look at our work</h2><br>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-6" style="margin-bottom:50px;">
+            <div id="carous2" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="public/images/s84.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                        <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                          <h5>Donation at Bangla Sahib Area and Hanuman Mandir, Delhi</h5>
+                          <p>We were able to donate clothes to around 200 blankets to the needy.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s85.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s86.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s87.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s88.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s89.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s90.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carous2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carous2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:50px;">
+              <div id="carouse13" class="carousel slide" data-ride="carousel" data-interval="0">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="public/images/s92.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                          <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                            <h5>Donation at East Delhi</h5>
+                            <p>We were able to donate around 300 blankets to the needy.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s91.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s93.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s94.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouse13" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouse13" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-6" style="margin-bottom:50px;">
+            <div id="carouse12" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="public/images/s79.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                        <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                          <h5>Donation outside AIIMS Hospital, Delhi</h5>
+                          <p>We were able to donate clothes to around 200 people to the needy.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s78.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s80.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s81.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s82.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s83.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouse12" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouse12" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:50px;">
+              <div id="carouse1" class="carousel slide" data-ride="carousel" data-interval="0">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="public/images/s74.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                          <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                            <h5>Donation at Mathura Road, Delhi</h5>
+                            <p>We were able to donate around 250 blankets to the needy.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s75.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s76.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s77.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouse1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouse1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-6" style="margin-bottom:50px;">
+            <div id="carousei1" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="public/images/s64.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                        <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                          <h5>Donation at Rajghat and Delhi gate, Delhi</h5>
+                          <p>We were able to donate approxiately 450 blankets to the needy.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s62.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s63.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s65.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s66.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousei1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousei1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:50px;">
+              <div id="carousei11" class="carousel slide" data-ride="carousel" data-interval="0">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="public/images/s67.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                          <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                            <h5>Second round of donation at CP and Kalawati Hospital, New Delhi</h5>
+                            <p>We were able to donate more than 300 blankets to the needy.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s68.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s69.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s71.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s72.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousei11" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousei11" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-6" style="margin-bottom:50px;">
+            <div id="carouseil" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="public/images/s55.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                        <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                          <h5>Donation at Rajghat and Delhi gate, Delhi</h5>
+                          <p>The best way to find yourself is to lose yourdelf in the service of others.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s57.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s56.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouseil" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouseil" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:50px;">
+              <div id="carouseill" class="carousel slide" data-ride="carousel" data-interval="0">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="public/images/s59.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                          <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                            <h5>Donation at Chandni Chowk, Delhi</h5>
+                            <p>Think of giving not as a duty but as a previlege.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s60.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s61.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouseill" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouseill" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-6" style="margin-top: 50px;">
+            <div id="carousei" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="public/images/s48.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                        <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                          <h5>Donation at Jana Masjid, Delhi</h5>
+                          <p>We have helped around 60 children and 20 families by donating some clothes.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s47.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s49.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s50.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s51.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousei" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousei" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-top: 50px;">
+              <div id="carousel3" class="carousel slide" data-ride="carousel" data-interval="0">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="public/images/s53.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                          <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                            <h5>Donation at Govt. Orphanage Home, Bangla Sahib, Delhi</h5>
+                            <p>We have donated around four bags of clean clothes to women(all age groups).</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s52.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s54.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-6" style="margin-top: 50px;">
+            <div id="carouseli" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="public/images/s37.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                        <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                          <h5>Donation at Kilkari Rainbow Home, Delhi</h5>
+                          <p>It is an orphanage for girls of age 6 to 18 years. We have donated them around 100 pairs of cleaned used clothes.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s38.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouseli" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouseli" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-top: 50px;">
+              <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="0">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="public/images/s42.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                          <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                            <h5>Donation at Lodhi Road, Delhi</h5>
+                            <p>We have donated around 80 pairs of clean clothes to people over there.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s39.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s40.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s41.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s46.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s43.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s44.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block img-fluid" src="public/images/s45.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-6" style="margin-top: 50px;">
+            <div id="carouselMain" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="public/images/s5.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                        <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                          <h5>Donation at Rajghat, Delhi</h5>
+                          <p>Let's be someone's sunshine when their skies are grey</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s6.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s8.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                      <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s9.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="public/images/s10.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselMain" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselMain" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+          </div>
+            <div class="col-md-6" style="margin-top: 50px;">
+              <div class="container header" >
+                  <div class="row row-content">
+                      <div class="col">
+                          <div id="carouselhe" class="carousel slide" data-ride="carousel" data-interval="0">
+                              <div class="carousel-inner" role="listbox">
+                                  <div class="carousel-item active">
+                                      <img class="d-block img-fluid" src="public/images/s25.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                      <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                                        <h5>Donation at Nizamuddin, Delhi</h5>
+                                        <p>AIIMS has collaborated with us on 20 September,2020</p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img class="d-block img-fluid" src="public/images/s26.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img class="d-block img-fluid" src="public/images/s27.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img class="d-block img-fluid" src="public/images/s28.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img class="d-block img-fluid" src="public/images/s30.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img class="d-block img-fluid" src="public/images/s31.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img class="d-block img-fluid" src="public/images/s32.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                  </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselhe" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselhe" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container header">
+        <div class="row">
+            <div class="col-md-6" style="margin-top: 50px;">
+                <div id="carouselMe" class="carousel slide" data-ride="carousel" data-interval="0">
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="public/images/s19.jpg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                            <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                              <h5>Donation at Kalawati, Delhi</h5>
+                              <p>Step forward, reach out and help.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="public/images/s18.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="public/images/s16.jpeg" alt="image2" style="height: 100%;max-height: 400px;min-height:400px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="public/images/s19.jpeg" alt="image2" style="height: 100%;max-height: 400px;min-height:400px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="public/images/s20.jpg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselMe" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselMe" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+              </div>
+                <div class="col-md-6" style="margin-top: 50px;">
+                  <div class="container header" >
+                      <div class="row row-content">
+                          <div class="col">
+                              <div id="carouselid" class="carousel slide" data-ride="carousel" data-interval="0">
+                                  <div class="carousel-inner" role="listbox">
+                                      <div class="carousel-item active">
+                                          <img class="d-block img-fluid" src="public/images/s34.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                          <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                                            <h5>Donation at Balvihar, Delhi</h5>
+                                            <p>It is a de-addiction centre for boys and girls. On 20 September, 2020 we managed to help them.</p>
+                                          </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img class="d-block img-fluid" src="public/images/s33.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                      </div>
+                                  </div>
+                                  <a class="carousel-control-prev" href="#carouselid" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon"></span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#carouselid" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon"></span>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container header">
+            <div class="row">
+                <div class="col-md-6" style="margin-top: 50px;">
+                    <div id="carouselMi" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid" src="public/images/s35.jpeg" alt="image1" style="height: 100%; max-height: 400px;min-height:400px;">
+                                <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                                  <h5>Donation at Connaught, Delhi</h5>
+                                  <p>Step forward, reach out and help.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="public/images/s36.jpeg" alt="image2" style="height: 100%; max-height: 400px;min-height:400px;">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselMi" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselMi" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6" style="margin-top: 50px;">
+                    <div class="container header" >
+                        <div class="row row-content">
+                            <div class="col">
+                                <div id="carouselha" class="carousel slide" data-ride="carousel" data-interval="0">
+                                    <div class="carousel-inner" role="listbox">
+
+                                        <div class="carousel-item active">
+                                            <img class="d-block img-fluid" src="public/images/s14.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                            <div class="carousel-caption d-md-block" style="background: rgba(0,0,0,0.5)">
+                                              <h5>Donation at Loknayak, Delhi</h5>
+                                              <p>Clothes distribution at Nizamuddin, Delhi</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="public/images/s15.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="public/images/s18.jpg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="public/images/s17.jpg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="public/images/s20.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="public/images/s19.jpeg" alt="image3" style="height: 100%; max-height: 400px;min-height:400px;">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselha" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselha" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+
+
+  <div class="social-menu">
+    <ul>
+      <li><a href="https://api.whatsapp.com/send/?phone=917827767680&text&app_absent=0"target="_blank"><i class="fab fa-whatsapp"style="color: #25D366;font-size:36px" ></i></a></li>
+      <li><a href="https://instagram.com/hands_thathelp?igshid=1qzea17d65avj"target="_blank"><i class="fab fa-instagram" style="color: #fff;font-size:36px"></i></a></li>
+      <li><a href="https://www.facebook.com/hands.thathelp.716"target="_blank"><i class="fab fa-facebook" style="font-size:36px;" ></i></a></li>
+      <li><a href="https://www.youtube.com/watch?v=lNNTHz4TP9k&list=WL&index=24&t=0s"target="_blank"><i class="fab fa-youtube" style="font-size:36px; color:#FF0000;" ></i></a></li>
+      <li><a href="https://twitter.com/hands_thathelp?s=08"target="_blank"><i class="fab fa-twitter" style="font-size:36px; color:#1DA1F2;" ></i></a></li>
+    </ul>
+  </div>
+
+<br><br>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
